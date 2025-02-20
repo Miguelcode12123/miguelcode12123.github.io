@@ -1,9 +1,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import Observer from "gsap/Observer";
-// @ts-ignore
 import { Slideshow } from "../components/slideshow.js";
-// @ts-ignore
 import { preloadImages } from "../components/utils.js";
 import "./HeroPage.css";
 
