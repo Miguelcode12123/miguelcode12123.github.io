@@ -96,10 +96,10 @@ const HeroPage: React.FC = () => {
                     <div className="slide">
                         <div className="slide__inner">
                             <div className="slide__img">
-                                <div className="slide__img-inner" style={{ backgroundImage: "url(/img/woman3.jpg)" }}></div>
+                                <div className="slide__img-inner" style={{ backgroundImage: "url(/img/woman.jpg)" }}></div>
                             </div>
                             <div className="slide__content">
-                                <div className="slide__content-img" style={{ backgroundImage: "url(/img/woman3.jpg)" }}></div>
+                                <div className="slide__content-img" style={{ backgroundImage: "url(/img/woman.jpg)" }}></div>
                                 <h2>Our Vision</h2>
                                 <p>Leading the future of digital cytology with advanced technology, precision, and innovation to enhance healthcare and transform laboratory practice.</p>
                             </div>
@@ -109,10 +109,10 @@ const HeroPage: React.FC = () => {
                     <div className="slide">
                         <div className="slide__inner">
                             <div className="slide__img">
-                                <div className="slide__img-inner" style={{ backgroundImage: "url(/img/cells/cell5.jpg)" }}></div>
+                                <div className="slide__img-inner" style={{ backgroundImage: "url(/img/cell.jpg)" }}></div>
                             </div>
                             <div className="slide__content">
-                                <div className="slide__content-img" style={{ backgroundImage: "url(/img/cells/cell5.jpg)" }}></div>
+                                <div className="slide__content-img" style={{ backgroundImage: "url(/img/cell.jpg)" }}></div>
                                 <h2>Swift Analysis</h2>
                                 <p>We harness AI to streamline cytology, minimizing manual analysis and maximizing accuracy—so scientists can work smarter, not harder.</p>
                             </div>
@@ -121,9 +121,9 @@ const HeroPage: React.FC = () => {
 
                     <div className="slide">
                         <div className="slide__inner">
-                            <div className="slide__img"><div className="slide__img-inner" style={{ backgroundImage: "url(/img/ai/ai4.jpg)" }}></div></div>
+                            <div className="slide__img"><div className="slide__img-inner" style={{ backgroundImage: "url(/img/ai.jpg)" }}></div></div>
                             <div className="slide__content">
-                                <div className="slide__content-img" style={{ backgroundImage: "url(/img/ai/ai4.jpg)" }}></div>
+                                <div className="slide__content-img" style={{ backgroundImage: "url(/img/ai.jpg)" }}></div>
                                 <h2>AI-Powered</h2>
                                 <p>Cy2logic automates cytology analysis by identifying suspicious cellular fields using AI, pattern recognition, and clinical data, providing a pre-diagnosis to support pathologists in delivering accurate final diagnoses.</p>
                             </div>
@@ -131,7 +131,7 @@ const HeroPage: React.FC = () => {
                     </div>
 
                     <div className="slide about-us-slide" ref={aboutRef}>
-                        <div className="slide__img-inner" style={{ backgroundImage: "url(/img/background/bk1.jpg)" }}></div>
+                        <div className="slide__img-inner" style={{ backgroundImage: "url(/img/bk.jpg)" }}></div>
                         <h2 className="about-title">Meet Our Team</h2>
                         <div className="team-container">
                             {teamMembers.map((member, index) => (
