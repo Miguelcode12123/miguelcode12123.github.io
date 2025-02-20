@@ -32,8 +32,8 @@ const HeroPage: React.FC = () => {
 
         const observer = Observer.create({
             type: "wheel,touch,pointer",
-            onDown: () => slideshowInstance.current?.prev(),
-            onUp: () => slideshowInstance.current?.next(),
+            onDown: () => slideshowInstance.current?.navigate(-1),
+            onUp: () => slideshowInstance.current?.navigate(1),
             wheelSpeed: -1,
             tolerance: 10,
         });
